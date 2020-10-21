@@ -40,13 +40,14 @@ nav a {
 
 p {
   line-height: 1.5;
+  text-align: justify;
 }
 
 main {
   margin: 10px;
 }
 
-.about h2, h3 {
+h2, h3 {
   margin: 10px 0;
 }
 
@@ -69,4 +70,17 @@ th, td {
 
 td:last-child {
   text-align: right;
+}
+
+article {
+  margin: 50px 0;
+}
+
+.curiosity-1 img {
+  width: 25%;
+  float: right;
+}
+
+.curiosity-1 p {
+  width: 70%;
 }
