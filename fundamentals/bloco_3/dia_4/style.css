@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 10px auto;
+  background-color: aliceblue;
+}
+
+header h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: lightskyblue;
+  margin-bottom: 20px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  color: black;
+}
+
+nav li:hover {
+  background-color: aqua;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
