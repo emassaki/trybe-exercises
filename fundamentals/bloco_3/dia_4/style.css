@@ -37,3 +37,36 @@ nav a {
   text-decoration: none;
   color: black;
 }
+
+p {
+  line-height: 1.5;
+}
+
+main {
+  margin: 10px;
+}
+
+.about h2, h3 {
+  margin: 10px 0;
+}
+
+.about img {
+  height: 200px;
+  display: inline-block;
+}
+
+table {
+  display: inline-block;
+  line-height: 20px;
+  border-collapse: collapse;
+  margin-right: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+td:last-child {
+  text-align: right;
+}
