@@ -10,15 +10,16 @@
   max-width: 80%;
   margin: 10px auto;
   background-color: aliceblue;
+  border-radius: 10px;
 }
 
 header h1 {
   padding: 10px;
-  text-align: center;
+  border-bottom: 1px solid black;
 }
 
 nav {
-  background-color: lightskyblue;
+  background-color: black;
   margin-bottom: 20px;
 }
 
@@ -26,16 +27,16 @@ nav li {
   display: inline-block;
   list-style-type: none;
   padding: 10px;
-  color: black;
 }
 
 nav li:hover {
-  background-color: aqua;
+  background-color: gray;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-weight: 600;
 }
 
 p {
@@ -75,7 +76,7 @@ td:last-child {
 }
 
 article {
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 .curiosity-1 img {
@@ -90,7 +91,7 @@ article {
 
 .curiosity-2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .curiosity-2 div {
@@ -99,7 +100,7 @@ article {
 }
 
 .media {
-  width:30%;
+  width:35%;
   display: inline-block;
 }
 
@@ -112,12 +113,12 @@ article {
   height: 180px;
 }
 
-a {
+aside a, .references a {
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+aside a:hover, .references a:hover{
   text-decoration: underline;
   background-color: black;
   color:white;
@@ -125,4 +126,8 @@ a:hover{
 
 ul {
   list-style-type: none;
+}
+
+footer {
+  margin: 10px;
 }
