@@ -17,8 +17,7 @@ Then, you have to change branches according to the lecture you want to visit:
 ```git
 git checkout exercises/lecture_number
 ```
-The lecture number is displayed in the section Trybe Lectures.
-
+The lecture number is displayed in the section Trybe Lectures as `lecture_number: content`.
 - :hourglass_flowing_sand: - Ongoing
 - :heavy_check_mark: - Completed
 - :closed_book: - Not started
@@ -36,15 +35,15 @@ The lecture number is displayed in the section Trybe Lectures.
 - [X] 2.2: Understandign the commands
 - [X] 2.3: Internet - How it works?
 
-##### Unit 3: Introduction to HTML & CSS :hourglass_flowing_sand:
+##### Unit 3: Introduction to HTML & CSS :heavy_check_mark:
 
 - [X] 3.1: HTML & CSS - Page structures
 - [X] 3.2: HTML & CSS - First steps in CSS
 - [X] 3.3: HTML & CSS - Selectors and positioning
 - [X] 3.4: Semantic HTML
-- [ ] 3.5: Project - Lessons Learned
+- [X] 3.5: Project - Lessons Learned
 
-##### Unit 4: Introduction to JavaScript and Programming Logic :closed_book:
+##### Unit 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
 
 - [ ] 4.1: JavaScript - First steps
 - [ ] 4.2: JavaScript - Array and for loops
