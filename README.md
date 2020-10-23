@@ -41,7 +41,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.2: HTML & CSS - First steps in CSS
 - [X] 3.3: HTML & CSS - Selectors and positioning
 - [X] 3.4: Semantic HTML
-- [X] 3.5: Project - Lessons Learned
+- [X] 3.5: [Project - Lessons Learned](https://github.com/tryber/sd-08-project-lessons-learned/tree/eric-massaki-lessons-learned-project)
 
 ##### Unit 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
 
