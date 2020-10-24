@@ -7,13 +7,3 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 console.log("The gratest number in array numbers is :" + greatest);
-
-// Searching for the smallest number 
-let smallest = Infinity;
-
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] < smallest) {
-    smallest = numbers[i];
-  }
-}
-console.log("The gratest number in array numbers is :" + smallest);
