@@ -45,7 +45,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Unit 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
 
-- [ ] 4.1: JavaScript - First steps
+- [X] 4.1: JavaScript - First steps
 - [ ] 4.2: JavaScript - Array and for loops
 - [ ] 4.3: JavaScript - Programming logic and algorithms
 - [ ] 4.4: JavaScript - Objects and functions
