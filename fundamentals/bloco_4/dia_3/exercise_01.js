@@ -1,4 +1,4 @@
-let n = 5;
+let n = 20;
 let square = "";
 
 for (let i = 0; i < n; i += 1) {
