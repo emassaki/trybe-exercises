@@ -1,4 +1,4 @@
-let n = 1;
+let n = 6;
 
 for (let i = 1; i <= Math.ceil(n/2); i += 1) {
   let pyramid = "";
