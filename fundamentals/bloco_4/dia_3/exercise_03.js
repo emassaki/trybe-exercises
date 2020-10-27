@@ -1,8 +1,7 @@
 let n = 10;
-let inverseTriangle = "";
 
 for (let i = 1; i <= n; i += 1) {
-  inverseTriangle = "";
+  let inverseTriangle = "";
   for (let j = n; j > i; j -= 1) {
   inverseTriangle += " ";
   }
