@@ -6,10 +6,13 @@ for (let i in numbers) {
     odd++;
   }
 }
+if (odd == 0){
+  console.log("There is no odd numbers");
+} else {
+  console.log("The number of odd numbers in numbers array is: " + odd);
+}
 
-console.log("The number of odd numbers in numbers array is: " + odd);
-
-// Counting the number of even number in the array
+// Extra - Counting the number of even number in the array
 let even = 0;
 
 for (let i in numbers) {
