@@ -47,7 +47,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 4.1: JavaScript - First steps
 - [X] 4.2: JavaScript - Array and for loops
-- [ ] 4.3: JavaScript - Programming logic and algorithms
+- [X] 4.3: JavaScript - Programming logic and algorithms
 - [ ] 4.4: JavaScript - Objects and functions
 - [ ] 4.5: Project - Playground Functions
 
