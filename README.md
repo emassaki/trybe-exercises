@@ -43,15 +43,15 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.4: Semantic HTML
 - [X] 3.5: [Project - Lessons Learned](https://github.com/tryber/sd-08-project-lessons-learned/tree/eric-massaki-lessons-learned-project)
 
-##### Unit 4: Introduction to JavaScript and Programming Logic :hourglass_flowing_sand:
+##### Unit 4: Introduction to JavaScript and Programming Logic :heavy_check_mark:
 
 - [X] 4.1: JavaScript - First steps
 - [X] 4.2: JavaScript - Array and for loops
-- [ ] 4.3: JavaScript - Programming logic and algorithms
-- [ ] 4.4: JavaScript - Objects and functions
-- [ ] 4.5: Project - Playground Functions
+- [X] 4.3: JavaScript - Programming logic and algorithms
+- [X] 4.4: JavaScript - Objects and functions
+- [X] 4.5: [Project - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/eric-massaki-playground-functions-project)
 
-##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :closed_book:
+##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :hourglass_flowing_sand:
 
 - [ ] 5.1: JavaScript - DOM and selectors
 - [ ] 5.2: JavaScript - Working with elements
