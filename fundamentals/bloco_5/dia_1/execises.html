@@ -40,44 +40,43 @@
     </div>
     <script>
         // Exercise 1
-        function changeParagraph() {
-          let text = "Trabalhando em uma grande empresa como Full Stack";
+        function changeParagraph(text) {
           document.getElementsByTagName('p')[1].innerText = text;
         }
-        changeParagraph();
+        changeParagraph("Trabalhando em uma grande empresa como Full Stack");
 
         // Exercise 2
-        function mainContentColor() {
-          document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
+        function mainContentColor(color) {
+          document.getElementsByClassName('main-content')[0].style.backgroundColor = color;
         }
-        mainContentColor();
+        mainContentColor('rgb(76,164,109)');
 
         // Exercise 3
-        function centerContentColor() {
-          document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
+        function centerContentColor(color) {
+          document.getElementsByClassName('center-content')[0].style.backgroundColor = color;
         }
-        centerContentColor();
+        centerContentColor('white');
 
         // Exercise 4
-        function correctH1() {
-          document.getElementsByClassName('title')[0].innerText = 'Exercício 5.1 - JavaScript';
+        function correctH1(text) {
+          document.getElementsByClassName('title')[0].innerText = text;
         }
-        correctH1();
+        correctH1('Exercício 5.1 - JavaScript');
 
         // Exercise 5
-        function upperCaseP() {
-          document.getElementsByTagName('p')[1].style.textTransform = 'uppercase';
+        function upperCaseP(textTrans) {
+          document.getElementsByTagName('p')[1].style.textTransform = textTrans;
         }
-        upperCaseP();
+        upperCaseP('uppercase');
 
         // Exercise 6
-        function printP() {
-          let tag = document.getElementsByTagName('p');
+        function printP(elementPrint) {
+          let tag = document.getElementsByTagName(elementPrint);
           for (let i in tag) {
-            console.log(document.getElementsByTagName('p')[i].innerText)
+            console.log(document.getElementsByTagName(elementPrint)[i].innerText)
           }
         }
-        printP();
+        printP('p');
     </script>
   </body>
 </html>
