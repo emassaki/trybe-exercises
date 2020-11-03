@@ -87,11 +87,22 @@
       rightContent.className = 'right-content';
       document.querySelector('.main-content').appendChild(rightContent);
 
-      // exercise 7
+      // Exercise 7
       let img = document.createElement('img');
       img.className = 'small-image';
       img.setAttribute('src', 'https://picsum.photos/200');
       document.querySelector('.left-content').appendChild(img);
+
+      // Exercise 8
+      let list = document.createElement('ol')
+      document.querySelector('.right-content').appendChild(list);
+      let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let number of numbers) {
+        let listItem = document.createElement('li');
+        listItem.innerHTML = number;
+        document.querySelector('.right-content ol').appendChild(listItem);
+      }
+  
     </script>
   </body>
 </html>
