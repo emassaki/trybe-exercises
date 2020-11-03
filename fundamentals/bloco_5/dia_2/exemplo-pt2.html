@@ -20,6 +20,7 @@
     </div>
 
     <script type="text/javascript">
+      // Parte 1
       console.log(document.getElementById("elementoOndeVoceEsta"));
       console.log(
         (document.getElementById(
@@ -30,7 +31,7 @@
         (document.getElementById("primeiroFilhoDoFilho").innerHTML =
           "Um texto qualquer.")
       );
-      console.log(document.getElementById("pai").firstElementChild); //Resulta em '#text' por ter espaços em branco entre o elemento pai e filho.
+      console.log(document.getElementById("pai").firstElementChild); // Resulta em '#text' por ter espaços em branco entre o elemento pai e filho.
       console.log(
         document.getElementById("elementoOndeVoceEsta").previousElementSibling
       );
@@ -42,6 +43,23 @@
       );
       console.log(
         document.getElementById("pai").lastElementChild.previousElementSibling
+      );
+
+      // Parte 2
+      let siblingElement = document.createElement("h4");
+      siblingElement.innerText = "Algum texto aqui!";
+      document.getElementById("pai").appendChild(siblingElement);
+      let childElement = document.createElement("p");
+      childElement.innerText = "Outro texto aqui!";
+      document.getElementById("elementoOndeVoceEsta").appendChild(childElement);
+      let childOfChildElement = document.createElement("li");
+      childOfChildElement.innerText = "Mais um texto aqui!";
+      document
+        .getElementById("primeiroFilhoDoFilho")
+        .appendChild(childOfChildElement);
+      console.log(
+        document.querySelector("li").parentElement.parentElement
+          .nextElementSibling
       );
     </script>
   </body>
