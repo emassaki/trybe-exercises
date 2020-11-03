@@ -96,6 +96,7 @@
       // Exercise 8
       let list = document.createElement('ol')
       document.querySelector('.right-content').appendChild(list);
+      list.className = 'list';
       let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
       for (let number of numbers) {
         let listItem = document.createElement('li');
@@ -127,6 +128,11 @@
 
       // Exercise 14
       document.querySelector('.center-content').parentElement.style.backgroundColor = 'green'
+
+      // Exercise 15
+      for (let i = 0; i < 2; i += 1) {
+        list.removeChild(list.lastElementChild);
+      }
     </script>
   </body>
 </html>
