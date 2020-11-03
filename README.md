@@ -53,8 +53,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :hourglass_flowing_sand:
 
-- [ ] 5.1: JavaScript - DOM and selectors
-- [ ] 5.2: JavaScript - Working with elements
+- [X] 5.1: JavaScript - DOM and selectors
+- [X] 5.2: JavaScript - Working with elements
 - [ ] 5.3: JavaScript - Events
 - [ ] 5.4: JavaScript - Web Storage
 - [ ] 5.5: Project - Meme Generator
