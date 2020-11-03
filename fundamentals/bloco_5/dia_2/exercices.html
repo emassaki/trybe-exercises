@@ -103,6 +103,12 @@
         document.querySelector('.right-content ol').appendChild(listItem);
       }
   
+      // Exercise 9
+      for (let times = 0; times < 3; times += 1) {
+        let h3 = document.createElement('h3');
+        h3.innerText = times + 1;
+        document.querySelector('.main-content').appendChild(h3);
+      }
     </script>
   </body>
 </html>
