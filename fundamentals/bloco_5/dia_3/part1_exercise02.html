@@ -39,24 +39,26 @@
     <div id="solution"></div>
 
     <script>
-      const squareBttn = document.getElementById('square-button');
-      squareBttn.addEventListener('click', squareNumber);      
+      const squareInput = document.getElementById('square-input');
+      squareInput.addEventListener('keyup', squareNumber);      
       function squareNumber() {
         let sqrInput = document.getElementById('square-input').value;
         var squaredNumber = sqrInput ** 2;
         document.getElementById('solution').innerText = squaredNumber;
       }
 
-      const halfBttn = document.getElementById('half-button');
-      halfBttn.addEventListener('click', halfOf);
+      const halfInput = document.getElementById('half-input');
+      halfInput.addEventListener('keyup', halfOf);
       function halfOf() {
         let halfInput = document.getElementById('half-input').value;
         var half = halfInput / 2;
         document.getElementById('solution').innerText = half;
       }
 
-      const percentBttn = document.getElementById('percent-button');
-      percentBttn.addEventListener('click', percentOf);
+      const percentInput1 = document.getElementById('percent1-input');
+      percentInput1.addEventListener('keyup', percentOf);
+      const percentInput2 = document.getElementById('percent2-input');
+      percentInput2.addEventListener('keyup', percentOf);
       function percentOf() {
         let percentInput1 = document.getElementById('percent1-input').value;
         let percentInput2 = document.getElementById('percent2-input').value;
@@ -64,8 +66,8 @@
         document.getElementById('solution').innerText = percent + "%";
       }
 
-      const areaBttn = document.getElementById('area-button');
-      areaBttn.addEventListener('click', areaOfCircle);
+      const areaInput = document.getElementById('area-input');
+      areaInput.addEventListener('keyup', areaOfCircle);
       function areaOfCircle() {
         let radius = document.getElementById('area-input').value;
         var area = Math.PI * radius ** 2;
