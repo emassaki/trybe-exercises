@@ -73,7 +73,7 @@ function createDaysOfTheMonth() {
       dayListItem.className = "day friday-day";
     }
     if (day === 25) {
-      dayListItem.className = "day friday holiday";
+      dayListItem.className = "day friday-day holiday";
     }
 
     daysList.appendChild(dayListItem);
@@ -114,8 +114,25 @@ function createFridayButton(buttonName) {
   let buttonContainer = document.querySelector(".buttons-container");
   let fridayButton = document.createElement("button");
   fridayButton.innerHTML = buttonName;
-  fridayButton.id = "btn-holiday";
+  fridayButton.id = "btn-friday";
   buttonContainer.appendChild(fridayButton);
 }
 
 createFridayButton("Sexta-feira");
+
+// Exercício 5
+let fridayButton = document.getElementById("btn-friday");
+let fridays = document.querySelectorAll(".friday-day");
+let newText = "SEXTOU!";
+let dezFridayArray = [4, 11, 18, 25];
+fridayButton.addEventListener("click", changeTextFriday);
+
+function changeTextFriday() {
+  for (let index = 0; index < fridays.length; index += 1) {
+    if (fridays[index].innerText === "SEXTOU!") {
+      fridays[index].innerText = dezFridayArray[index];
+    } else {
+      fridays[index].innerText = newText;
+    }
+  }
+}
