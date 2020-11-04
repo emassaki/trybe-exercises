@@ -43,10 +43,19 @@
         <strong>discount</strong> o resultado da multiplicação.
       </p>
       <script language="javascript" type="text/javascript">
-        //JavaScript para o exercício 4
-        //JavaScript para o exercício 4
-        //JavaScript para o exercício 4
+        window.onload = loaded;
+        function loaded() {
+          let productPrice = 59.99;
+          let discount = 0.30;
+          const discountBttn = document.getElementById('discount-button');
+          discountBttn.addEventListener('click', discounted);
+          function discounted() {
+            let discountValue = productPrice * discount;
+            alert("Desconto de R$" + discountValue);
+          }
+        }
       </script>
+        <button id="discount-button">Desconto!</button>
       <hr />
       <h2>Bônus</h2>
       <p>
