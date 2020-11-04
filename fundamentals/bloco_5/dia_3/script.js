@@ -8,7 +8,7 @@ function createDaysOfTheWeek() {
     "Sexta",
     "Sábado",
   ];
-  const weekDaysList = document.querySelector(".week-days");
+  let weekDaysList = document.querySelector(".week-days");
 
   for (let index = 0; index < weekDays.length; index += 1) {
     const days = weekDays[index];
@@ -135,4 +135,17 @@ function changeTextFriday() {
       fridays[index].innerText = newText;
     }
   }
+}
+
+// Exercício 6
+let listItem = document.getElementsByClassName('day');
+for (let index = 0; index < listItem.length; index += 1) {
+  listItem[index].addEventListener('mouseenter', function () {
+    listItem[index].style.fontSize = '40px';
+    listItem[index].style.transition = '0.5s';
+  });
+  listItem[index].addEventListener('mouseleave', function () {
+    listItem[index].style.fontSize = '20px';
+    listItem[index].style.transition = '0.5s';
+  });
 }
