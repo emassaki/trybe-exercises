@@ -108,3 +108,14 @@ function paintHoliday() {
     }
   }
 }
+
+// Exercício 4
+function createFridayButton(buttonName) {
+  let buttonContainer = document.querySelector(".buttons-container");
+  let fridayButton = document.createElement("button");
+  fridayButton.innerHTML = buttonName;
+  fridayButton.id = "btn-holiday";
+  buttonContainer.appendChild(fridayButton);
+}
+
+createFridayButton("Sexta-feira");
