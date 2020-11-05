@@ -149,3 +149,35 @@ for (let index = 0; index < listItem.length; index += 1) {
     listItem[index].style.transition = '0.5s';
   });
 }
+// Gabarito
+// function dayMouseOver () {
+//   let days = document.getElementById('days');
+//   days.addEventListener('mouseover', function(event) {
+//     event.target.style.fontSize = '40px';
+//     event.target.style.transition = '0.5s';
+//     event.target.style.fontWeight = '600';
+//   })
+// }
+// function dayMouseOut () {
+//   let days = document.getElementById('days');
+//   days.addEventListener('mouseout', function(event) {
+//     event.target.style.fontSize = '20px';
+//     event.target.style.transition = '0.5s';
+//     event.target.style.fontWeight = '400';
+//   })
+// }
+// dayMouseOver()
+// dayMouseOut()
+
+// Exercício 7
+function addTaskList () {
+  let addTaskButton = document.getElementById('btn-add');
+  addTaskButton.addEventListener('click', function () {
+    let taskList = document.querySelector('.my-tasks');
+    let taskInput = document.getElementById('task-input');
+    let taskItemSpan = document.createElement('span');
+    taskItemSpan.innerText = taskInput.value;
+    taskList.appendChild(taskItemSpan);
+  });
+}
+addTaskList()
