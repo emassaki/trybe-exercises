@@ -203,15 +203,18 @@ selectTask();
 
 // Exercício 10
 function insertLabelOnDates() {
-  let taskLabelColor = document.querySelector('.task').style.backgroundColor;
-  let standardLabelColor = 'rgb(119,119,119)';
+  let selectedTask = document.getElementsByClassName('task selected');
   let days = document.getElementById('days');
+  let taskLabel = document.querySelector('.task'); 
+  let taskLabelColor = taskLabel.style.backgroundColor;
+  let standardLabelColor = 'rgb(119,119,119)';
   days.addEventListener('click', function(event) {
-    if (event.target.style.color === taskLabelColor) {
+    if (event.target.style.color !== taskLabelColor && selectedTask.length > 0){
+      let selectedTaskColor = selectedTask[0].style.backgroundColor;
+      event.target.style.color = selectedTaskColor;
+    } else if (event.target.style.color === taskLabelColor && selectedTask.length !== 0) {
       event.target.style.color = standardLabelColor;
-    } else {
-      event.target.style.color = taskLabelColor;
-    }
+    };
   })
 } 
 insertLabelOnDates();
@@ -239,3 +242,29 @@ function addTaskList () {
   }
 }
 addTaskList()
+
+// Bônus pessoal
+function selectRemoveButton() {
+  let removeButton = document.querySelector('#btn-remove');
+  removeButton.addEventListener('click', function() {
+    if (removeButton.className === 'selected-button') {
+      removeButton.removeAttribute('class');
+    } else {
+      removeButton.className = 'selected-button';
+    }
+  });
+}
+selectRemoveButton()
+
+function removeTask() {
+  let removeButtonSelected = document.getElementsByClassName('selected-button');
+  let taskList = document.querySelector('.task-list');
+  taskList.addEventListener('click', function(event) {
+    if (removeButtonSelected.length > 0) {
+      event.target.remove();
+    } else if (removeButtonSelected.length !== 0) {
+      return;
+    }
+  });
+} 
+removeTask();
