@@ -177,17 +177,6 @@ function newTaskSpan(task) {
   myTasksContainer.appendChild(taskSpan);
 }
 newTaskSpan("Projeto:")
-// Gabarito
-// function newTaskSpan(task) {
-
-//   let tasksContainer = document.querySelector('.my-tasks');
-//   let taskName = document.createElement('span');
-
-//   taskName.innerHTML = task;
-//   tasksContainer.appendChild(taskName);
-// };
-
-// newTaskSpan('Projeto:');
 
 // Exercício 8
 function taskBackgroundColor(color) {
@@ -198,6 +187,19 @@ function taskBackgroundColor(color) {
   myTasks.appendChild(divTask);
 }
 taskBackgroundColor('blue');
+
+// Exercício 9
+function selectTask() {
+  let taskLabel = document.querySelector('.task');
+  taskLabel.addEventListener('click', function() {
+    if (taskLabel.className === 'task selected') {
+      taskLabel.className = 'task';
+    } else {
+      taskLabel.className = 'task selected';
+    }
+  });
+}
+selectTask();
 
 // Adiciona a partir do input
 // function addTaskList () {
