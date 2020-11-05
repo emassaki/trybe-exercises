@@ -170,14 +170,44 @@ for (let index = 0; index < listItem.length; index += 1) {
 // dayMouseOut()
 
 // Exercício 7
-function addTaskList () {
-  let addTaskButton = document.getElementById('btn-add');
-  addTaskButton.addEventListener('click', function () {
-    let taskList = document.querySelector('.my-tasks');
-    let taskInput = document.getElementById('task-input');
-    let taskItemSpan = document.createElement('span');
-    taskItemSpan.innerText = taskInput.value;
-    taskList.appendChild(taskItemSpan);
-  });
+function newTaskSpan(task) {
+  let taskSpan = document.createElement('span');
+  taskSpan.innerHTML = task;
+  let myTasksContainer = document.querySelector('.my-tasks');
+  myTasksContainer.appendChild(taskSpan);
 }
-addTaskList()
+newTaskSpan("Projeto:")
+// Gabarito
+// function newTaskSpan(task) {
+
+//   let tasksContainer = document.querySelector('.my-tasks');
+//   let taskName = document.createElement('span');
+
+//   taskName.innerHTML = task;
+//   tasksContainer.appendChild(taskName);
+// };
+
+// newTaskSpan('Projeto:');
+
+// Exercício 8
+function taskBackgroundColor(color) {
+  let divTask = document.createElement('div');
+  divTask.className = 'task';
+  divTask.style.backgroundColor = color;
+  let myTasks = document.querySelector('.my-tasks');
+  myTasks.appendChild(divTask);
+}
+taskBackgroundColor('blue');
+
+// Adiciona a partir do input
+// function addTaskList () {
+//   let addTaskButton = document.getElementById('btn-add');
+//   addTaskButton.addEventListener('click', function () {
+//     let taskList = document.querySelector('.my-tasks');
+//     let taskInput = document.getElementById('task-input');
+//     let taskItemSpan = document.createElement('span');
+//     taskItemSpan.innerText = taskInput.value;
+//     taskList.appendChild(taskItemSpan);
+//   });
+// }
+// addTaskList()
