@@ -55,7 +55,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 5.1: JavaScript - DOM and selectors
 - [X] 5.2: JavaScript - Working with elements
-- [ ] 5.3: JavaScript - Events
+- [X] 5.3: JavaScript - Events
 - [ ] 5.4: JavaScript - Web Storage
 - [ ] 5.5: Project - Meme Generator
 - [ ] 5.6: Project - Art with Pixels
