@@ -215,15 +215,27 @@ function insertLabelOnDates() {
   })
 } 
 insertLabelOnDates();
-// Adiciona a partir do input
-// function addTaskList () {
-//   let addTaskButton = document.getElementById('btn-add');
-//   addTaskButton.addEventListener('click', function () {
-//     let taskList = document.querySelector('.my-tasks');
-//     let taskInput = document.getElementById('task-input');
-//     let taskItemSpan = document.createElement('span');
-//     taskItemSpan.innerText = taskInput.value;
-//     taskList.appendChild(taskItemSpan);
-//   });
-// }
-// addTaskList()
+
+// Bônus
+function addTaskList () {
+  let addTaskButton = document.getElementById('btn-add');
+  let taskInput = document.getElementById('task-input');
+  taskInput.addEventListener('keydown', function(event) {
+    if (event.key === "Enter") {
+      createTask();
+    }
+  })
+  addTaskButton.addEventListener('click', createTask);
+  function createTask() {
+    let taskList = document.querySelector('.task-list');
+    if (taskInput.value.length <= 0) {
+      alert('Escreva seu compromisso!');
+      return;
+    }
+    let taskItemSpan = document.createElement('li');
+    taskItemSpan.innerText = taskInput.value;
+    taskList.appendChild(taskItemSpan);
+    taskInput.value = '';
+  }
+}
+addTaskList()
