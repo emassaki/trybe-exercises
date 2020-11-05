@@ -179,14 +179,14 @@ function newTaskSpan(task) {
 newTaskSpan("Projeto:")
 
 // Exercício 8
-function taskBackgroundColor(color) {
+function labelBackgroundColor(color) {
   let divTask = document.createElement('div');
   divTask.className = 'task';
   divTask.style.backgroundColor = color;
   let myTasks = document.querySelector('.my-tasks');
   myTasks.appendChild(divTask);
 }
-taskBackgroundColor('blue');
+labelBackgroundColor('blue');
 
 // Exercício 9
 function selectTask() {
@@ -201,6 +201,20 @@ function selectTask() {
 }
 selectTask();
 
+// Exercício 10
+function insertLabelOnDates() {
+  let taskLabelColor = document.querySelector('.task').style.backgroundColor;
+  let standardLabelColor = 'rgb(119,119,119)';
+  let days = document.getElementById('days');
+  days.addEventListener('click', function(event) {
+    if (event.target.style.color === taskLabelColor) {
+      event.target.style.color = standardLabelColor;
+    } else {
+      event.target.style.color = taskLabelColor;
+    }
+  })
+} 
+insertLabelOnDates();
 // Adiciona a partir do input
 // function addTaskList () {
 //   let addTaskButton = document.getElementById('btn-add');
