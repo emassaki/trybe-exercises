@@ -1,0 +1,53 @@
+.config {
+  position: absolute;
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.text {
+  width: 120px;
+}
+
+.number {
+  width: 40px;
+}
+
+#btn-apply-styles, #btn-reset-styles{
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 2.5%;
+  width: 45%;
+
+  background-color: gray;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main-text {
+  width: 70%;
+  
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: auto;
+
+  background-color: whitesmoke;
+}
+
+.main-text p {
+  margin-top: 0;
+}
