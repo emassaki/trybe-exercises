@@ -1,44 +1,68 @@
+// Elementos HTML
+// Elemento main
+let main = document.querySelector('.main-text');
+// Container dos botões
+let settingsContainer = document.querySelector(".config");
+// Botões
 let applyButton = document.getElementById("btn-apply-styles");
 let resetButton = document.getElementById("btn-reset-styles");
-let body = document.body;
+// Opções
+let fontFamily = document.getElementById("font-family");
+let fontSize = document.getElementById("font-size");
+let backgroundColor = document.getElementById("background-color-selector");
+let color = document.getElementById("color-selector");
+let lineHeight = document.getElementById("line-height");
 
-body.style.fontFamily = localStorage.fontFamily;
-body.style.fontSize = localStorage.fontSize;
-body.style.backgroundColor = localStorage.backgroundColor;
-body.style.color = localStorage.textColor;
-body.style.lineHeight = localStorage.lineHeight;
+// Carrega a última configuração usada
+let lastAppliedJSON = localStorage.getItem("applied");
+let lastAppliedObj = JSON.parse(lastAppliedJSON);
+for (let key in lastAppliedObj) {
+  main.style[key] = lastAppliedObj[key];
+}
 
-applyButton.addEventListener("click", function () {
-  let fontFamily = document.getElementById("font-family").value;
-  let fontSize = document.getElementById("font-size").value;
-  let backgroundColor = document.getElementById("background-color-selector")
-    .value;
-  let textColor = document.getElementById("color-selector").value;
-  let lineHeight = document.getElementById("line-height").value;
-
-  body.style.fontFamily = fontFamily;
-  body.style.fontSize = fontSize + "px";
-  body.style.backgroundColor = backgroundColor;
-  body.style.color = textColor;
-  body.style.lineHeight = lineHeight;
-
-  localStorage.fontFamily = fontFamily.toString();
-  localStorage.fontSize = fontSize + "px";
-  localStorage.backgroundColor = backgroundColor;
-  localStorage.textColor = textColor;
-  localStorage.lineHeight = lineHeight;
+// Eventos que aplicam os estilos
+applyButton.addEventListener("click", applyStyles);
+settingsContainer.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    applyStyles();
+  }
 });
 
-resetButton.addEventListener("click", function () {
-  body.style.fontFamily = 'Arial';
-  body.style.fontSize = "16px";
-  body.style.backgroundColor = 'white';
-  body.style.color = 'black';
-  body.style.lineHeight = 1.0;
+// Função para aplicar os estilos
+function applyStyles() {
+  // Configurações aplicadas
+  let appliedSettings = {
+    fontFamily: fontFamily.value,
+    fontSize: fontSize.value + "px",
+    backgroundColor: backgroundColor.value,
+    color: color.value,
+    lineHeight: lineHeight.value,
+  };
+  // Armazenamento das config aplicadas
+  let applySettingsJSON = JSON.stringify(appliedSettings);
+  localStorage.setItem("applied", applySettingsJSON);
+  // Aplica os estilos
+  for (let key in appliedSettings) {
+    main.style[key] = appliedSettings[key];
+  }
+}
 
-  localStorage.fontFamily = 'Arial';
-  localStorage.fontSize = "16px";
-  localStorage.backgroundColor = 'white';
-  localStorage.color = 'black';
-  localStorage.lineHeight = 1.0;
-})
+// Configurações padrão
+let stdSettings = {
+  fontFamily: "",
+  fontSize: "",
+  backgroundColor: "",
+  color: "",
+  lineHeight: "",
+};
+// Armazenamento das config padrão
+let stdSettingsJSON = JSON.stringify(stdSettings);
+localStorage.setItem("standard", stdSettingsJSON);
+// Retorna os estilos para o padrão
+resetButton.addEventListener("click", function () {
+  let stdSettingsObj = JSON.parse(localStorage["standard"]);
+  for (let key in stdSettingsObj) {
+    main.style[key] = stdSettingsObj[key];
+  }
+  localStorage.setItem("applied", stdSettingsJSON);
+});
