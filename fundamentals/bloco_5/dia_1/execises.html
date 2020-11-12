@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      div {
+        border-color: black;
+        border-style: solid;
+      }
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    <div class="main-content">
+      <div class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </div>
+    </div>
+    <script>
+        // Exercise 1
+        function changeParagraph(text) {
+          document.getElementsByTagName('p')[1].innerText = text;
+        }
+        changeParagraph("Trabalhando em uma grande empresa como Full Stack");
+
+        // Exercise 2
+        function mainContentColor(color) {
+          document.getElementsByClassName('main-content')[0].style.backgroundColor = color;
+        }
+        mainContentColor('rgb(76,164,109)');
+
+        // Exercise 3
+        function centerContentColor(color) {
+          document.getElementsByClassName('center-content')[0].style.backgroundColor = color;
+        }
+        centerContentColor('white');
+
+        // Exercise 4
+        function correctH1(text) {
+          document.getElementsByClassName('title')[0].innerText = text;
+        }
+        correctH1('Exercício 5.1 - JavaScript');
+
+        // Exercise 5
+        function upperCaseP(textTrans) {
+          document.getElementsByTagName('p')[1].style.textTransform = textTrans;
+        }
+        upperCaseP('uppercase');
+
+        // Exercise 6
+        function printP(elementPrint) {
+          let tag = document.getElementsByTagName(elementPrint);
+          for (let i in tag) {
+            console.log(document.getElementsByTagName(elementPrint)[i].innerText)
+          }
+        }
+        printP('p');
+    </script>
+  </body>
+</html>
