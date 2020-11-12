@@ -59,8 +59,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 5.4: JavaScript - Web Storage
 - [X] 5.5: Project - Art with Pixels
 - [X] 5.6: Project - Task List
-- [ ] 5.7: (Bonus) Project - Meme Generator
-- [ ] 5.7: (Bonus) Project - Gess the Color
+- [X] 5.7: (Bonus) Project - Meme Generator
+- [X] 5.7: (Bonus) Project - Gess the Color
 - [ ] 5.7: (Bonus) Project - Mysterious Letter
 
 ##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :closed_book:
