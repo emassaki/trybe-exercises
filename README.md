@@ -57,10 +57,10 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 5.2: JavaScript - Working with elements
 - [X] 5.3: JavaScript - Events
 - [X] 5.4: JavaScript - Web Storage
-- [X] 5.5: Project - Art with Pixels
-- [X] 5.6: [Project - Task List] (https://github.com/tryber/sd-08-project-todo-list/pull/41)
-- [X] 5.7: [(Bonus) Project - Meme Generator] (https://github.com/tryber/sd-08-project-meme-generate)
-- [X] 5.7: [(Bonus) Project - Gess the Color] (https://github.com/tryber/sd-08-project-color-guess/pull/9)
+- [X] 5.5: [Project - Art with Pixels](https://github.com/tryber/sd-08-project-pixels-art)
+- [X] 5.6: [Project - Task List](https://github.com/tryber/sd-08-project-todo-list/pull/41)
+- [X] 5.7: [(Bonus) Project - Meme Generator](https://github.com/tryber/sd-08-project-meme-generate)
+- [X] 5.7: [(Bonus) Project - Gess the Color](https://github.com/tryber/sd-08-project-color-guess/pull/9)
 - [ ] 5.7: (Bonus) Project - Mysterious Letter
 
 ##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :hourglass_flowing_sand:
