@@ -29,10 +29,24 @@ let state = [
   'TO',
   ];
 
-  for (let stateName = 0; stateName < state.length; stateName += 1) {
-    const states = document.getElementById('state');
-    const option = document.createElement('option');
-    option.innerHTML = state[stateName];
-    option.value = state[stateName];
-    states.appendChild(option);
+for (let stateName = 0; stateName < state.length; stateName += 1) {
+  const states = document.getElementById('state');
+  const option = document.createElement('option');
+  option.innerHTML = state[stateName];
+  option.value = state[stateName];
+  states.appendChild(option);
+}
+
+const submitButton = document.getElementById('submit');
+const required = document.querySelectorAll('[required]');
+submitButton.addEventListener('click', (event) => {
+  for (let itemRequired = 0; itemRequired < required.length; itemRequired += 1) {
+    if (!required[itemRequired].innerText) {
+      alert ('Existem campos não preenchidos!');
+      console.log(itemRequired);
+      return;
+    }
   }
+  // const checkData = 
+})
+

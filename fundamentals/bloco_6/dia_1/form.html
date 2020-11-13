@@ -1,40 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <fieldset class="personal-data">
-    <label for="name">Nome:</label>
-    <input type="text" name="name" id="name" placeholder="Insira seu nome" required>
-    <br>
-    <label for="email">E-mail:</label>
-    <input type="email" name="email" id="email" placeholder="exemplo@gmail.com" required>
-    <br>
-    <label for="cpf">CPF:</label>
-    <input type="text" name="cpf" id="cpf" placeholder="123.456.789-01" maxlength="11" required>
-    <br>
-    <label for="adress">Endereço:</label>
-    <input type="text" name="adress" id="adress" placeholder="R. exemplo, nº, CEP" maxlength="200" required>
-    <br>
-    <label for="city">Cidade:</label>
-    <input type="text" name="city" id="city" placeholder="Londrina" maxlength="28" required>
-    <br>
-    <label for="state">Estado:</label>
-    <select name="state" id="state" required></select>
-    <br>
-    <p class="housing">Tipo de moradia:</p>
-    <label for="house">
-      <input type="radio" name="building-type" id="house" checked>
-      Casa
-    </label>
-    <label for="apartment">
-      <input type="radio" name="building-type" id="apartment">
-      Apartamento
-    </label>
-  </fieldset>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <fieldset class="personal-data">
+        <legend>Dados pessoais</legend>
+        <label for="name">Nome:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Insira seu nome"
+          maxlength="40"
+          required
+        />
+        <br />
+        <label for="email">E-mail:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="exemplo@gmail.com"
+          maxlength="50"
+          required
+        />
+        <br />
+        <label for="cpf">CPF:</label>
+        <input
+          type="text"
+          name="cpf"
+          id="cpf"
+          placeholder="12345678901"
+          maxlength="11"
+          minlength="11"
+          required
+        />
+        <br />
+        <label for="adress">Endereço:</label>
+        <input
+          type="text"
+          name="adress"
+          id="adress"
+          placeholder="R. exemplo, nº, CEP"
+          maxlength="200"
+          required
+        />
+        <br />
+        <label for="city">Cidade:</label>
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="Londrina"
+          maxlength="28"
+          required
+        />
+        <br />
+        <label for="state">Estado:</label>
+        <select name="state" id="state" required></select>
+        <br />
+        <p class="housing">Tipo de moradia:</p>
+        <label for="house">Casa</label>
+        <input type="radio" name="building-type" id="house" checked />
+        <label for="apartment">Apartamento</label>
+        <input type="radio" name="building-type" id="apartment" />
+      </fieldset>
+      <fieldset class="last-job">
+        <legend>Último emprego</legend>
+        <label for="curriculum-summary">Resumo do currículo:</label>
+        <br />
+        <textarea
+          name="curriculum-summary"
+          name="curriculum-summary"
+          id="curriculum-summary"
+          maxlength="1000"
+          required
+          cols="70"
+          rows="10"
+          placeholder="Uma breve descrição do seu currículo"
+        ></textarea>
+        <br />
+        <label for="role">Cargo:</label>
+        <input
+          type="text"
+          name="role"
+          id="role"
+          maxlength="40"
+          placeholder="Analista de Dados"
+          required
+        />
+        <br />
+        <label for="job-description">Descrição do cargo:</label>
+        <input
+          type="text"
+          name="job-description"
+          id="job-description"
+          maxlength="500"
+          required
+          placeholder="Descreva seu último cargo"
+        ></input>
+        <br />
+        <label for="start-date">Data de início:</label>
+        <input type="text" name="start-date" id="start-date" placeholder="dd/mm/aaaa" required>
+      </fieldset>
+      <button type="submit" id="submit">Enviar</button>
+      <button type="reset" id="reset">Apagar</button>
+    </form>
+    <div id="curriculum"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
