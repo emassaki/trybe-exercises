@@ -1,52 +1,72 @@
-// Estrutura retirada de https://gist.github.com/kavalcante/16106796c430c1711a71c5ba1213cee5 por flpnascto no GitHub
-let state = [
-  'AC',
-  'AL',
-  'AP',
-  'AM',
-  'BA',
-  'CE',
-  'DF',
-  'ES',
-  'GO',
-  'MA',
-  'MT',
-  'MS',
-  'MG',
-  'PA',
-  'PB',
-  'PR',
-  'PE',
-  'PI',
-  'RJ',
-  'RN',
-  'RS',
-  'RO',
-  'RR',
-  'SC',
-  'SP',
-  'SE',
-  'TO',
+const form = document.getElementsByTagName
+const states = document.getElementById("state");
+// const regex = /\d{2}\/\d{2}\/\d{4}/;
+const date = document.getElementById("start-date");
+const submitButton = document.getElementById("submit");
+
+function selectState() {
+  const stateUF = [
+    "AC",
+    "AL",
+    "AP",
+    "AM",
+    "BA",
+    "CE",
+    "DF",
+    "ES",
+    "GO",
+    "MA",
+    "MT",
+    "MS",
+    "MG",
+    "PA",
+    "PB",
+    "PR",
+    "PE",
+    "PI",
+    "RJ",
+    "RN",
+    "RS",
+    "RO",
+    "RR",
+    "SC",
+    "SP",
+    "SE",
+    "TO",
   ];
-
-for (let stateName = 0; stateName < state.length; stateName += 1) {
-  const states = document.getElementById('state');
-  const option = document.createElement('option');
-  option.innerHTML = state[stateName];
-  option.value = state[stateName];
-  states.appendChild(option);
+  for (let stateName = 0; stateName < stateUF.length; stateName += 1) {
+    const option = document.createElement("option");
+    option.innerHTML = stateUF[stateName];
+    option.value = stateUF[stateName];
+    states.appendChild(option);
+  }
 }
+selectState();
 
-const submitButton = document.getElementById('submit');
-const required = document.querySelectorAll('[required]');
-submitButton.addEventListener('click', (event) => {
+submitButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  const required = document.querySelectorAll("[required]");
+  let errors = '';
   for (let itemRequired = 0; itemRequired < required.length; itemRequired += 1) {
-    if (!required[itemRequired].innerText) {
-      alert ('Existem campos não preenchidos!');
-      console.log(itemRequired);
-      return;
+    let input = required[itemRequired];
+    if (input.required) {
+      if (input.value === "") {
+        errors += `O campo ${input.name} é obrigatório! \n`;
+      }
     }
   }
-  // const checkData = 
-})
+
+  // Validação da data
+  // const checkData = regex.test(date.value);
+  const dataArray = date.value.split('/');
+  const day = parseInt(dataArray[0]);
+  const month = parseInt(dataArray[1]);
+  const year = parseInt(dataArray[2]);
+  console.log(dataArray, day,month,year);
+  if (!(day > 0 || day <= 31 || month > 0 || month <= 12 || year > 0)) {
+    errors += 'Insira uma data com o formato dd/mm/aaaa.';
+  }
+  alert(errors);
+});
+
 

@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="" method="get">
+    <form action="" method="get" novalidate>
       <fieldset class="personal-data">
         <legend>Dados pessoais</legend>
         <label for="name">Nome:</label>
@@ -31,7 +31,7 @@
         <br />
         <label for="cpf">CPF:</label>
         <input
-          type="text"
+          type="number"
           name="cpf"
           id="cpf"
           placeholder="12345678901"
@@ -43,8 +43,8 @@
         <label for="adress">Endereço:</label>
         <input
           type="text"
-          name="adress"
-          id="adress"
+          name="address"
+          id="address"
           placeholder="R. exemplo, nº, CEP"
           maxlength="200"
           required
@@ -61,20 +61,23 @@
         />
         <br />
         <label for="state">Estado:</label>
-        <select name="state" id="state" required></select>
+        <select name="state" id="state" required>
+          <option disabled selected>Selecione seu estado</option>
+        </select>
         <br />
-        <p class="housing">Tipo de moradia:</p>
-        <label for="house">Casa</label>
-        <input type="radio" name="building-type" id="house" checked />
-        <label for="apartment">Apartamento</label>
-        <input type="radio" name="building-type" id="apartment" />
+        <fieldset>
+          <legend>Moradia</legend>
+          <input type="radio" name="building-type" id="house" value="Casa" checked/>
+          <label for="house">Casa</label>
+          <input type="radio" name="building-type" id="apartment" value="Apartamento"/>
+          <label for="apartment">Apartamento</label>
+        </fieldset>
       </fieldset>
       <fieldset class="last-job">
         <legend>Último emprego</legend>
         <label for="curriculum-summary">Resumo do currículo:</label>
         <br />
         <textarea
-          name="curriculum-summary"
           name="curriculum-summary"
           id="curriculum-summary"
           maxlength="1000"
@@ -105,7 +108,7 @@
         ></input>
         <br />
         <label for="start-date">Data de início:</label>
-        <input type="text" name="start-date" id="start-date" placeholder="dd/mm/aaaa" required>
+        <input type="text" name="start-date" id="start-date" placeholder="dd/mm/aaaa" >
       </fieldset>
       <button type="submit" id="submit">Enviar</button>
       <button type="reset" id="reset">Apagar</button>
