@@ -59,9 +59,33 @@ footer p {
   header p {
     font-size: 30px;
   }
-  
+
   .aside-container {
     display: flex;
     justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header p {
+    font-size: 40px;
+  }
+
+  .aside-one, .aside-two {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .aside-one ul, .aside-two ul {
+    margin-top: 16px
+  }
+
+  .aside-one h2, .aside-two h2 {
+    margin-top: 16px;
+  }
+
+  .main-content p {
+    line-height: 1.5;
+    font-size: 18px;
   }
 }
