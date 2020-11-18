@@ -41,7 +41,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 3.2: HTML & CSS - First steps in CSS
 - [X] 3.3: HTML & CSS - Selectors and positioning
 - [X] 3.4: Semantic HTML
-- [X] 3.5: [Project - Lessons Learned](https://github.com/tryber/sd-08-project-lessons-learned/tree/eric-massaki-lessons-learned-project)
+- [X] 3.5: [Project - Lessons Learned](https://github.com/tryber/sd-08-project-lessons-learned/pull/39)
 
 ##### Unit 4: Introduction to JavaScript and Programming Logic :heavy_check_mark:
 
@@ -49,26 +49,26 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 4.2: JavaScript - Array and for loops
 - [X] 4.3: JavaScript - Programming logic and algorithms
 - [X] 4.4: JavaScript - Objects and functions
-- [X] 4.5: [Project - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/tree/eric-massaki-playground-functions-project)
+- [X] 4.5: [Project - Playground Functions](https://github.com/tryber/sd-08-project-playground-function/pull/3)
 
-##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :hourglass_flowing_sand:
+##### Unit 5: Introdução - JavaScript - DOM, Events and Web Storage :heavy_check_mark:
 
 - [X] 5.1: JavaScript - DOM and selectors
 - [X] 5.2: JavaScript - Working with elements
 - [X] 5.3: JavaScript - Events
 - [X] 5.4: JavaScript - Web Storage
-- [X] 5.5: Project - Art with Pixels
-- [X] 5.6: Project - Task List
-- [X] 5.7: (Bonus) Project - Meme Generator
-- [X] 5.7: (Bonus) Project - Gess the Color
-- [ ] 5.7: (Bonus) Project - Mysterious Letter
+- [X] 5.5: [Project - Art with Pixels](https://github.com/tryber/sd-08-project-pixels-art/pull/51)
+- [X] 5.6: [Project - Task List](https://github.com/tryber/sd-08-project-todo-list/pull/41)
+- [X] 5.7: [(Bonus) Project - Meme Generator](https://github.com/tryber/sd-08-project-meme-generate/pull/26)
+- [X] 5.7: [(Bonus) Project - Gess the Color](https://github.com/tryber/sd-08-project-color-guess/pull/9)
+- [X] 5.7: [(Bonus) Project - Mysterious Letter](https://github.com/tryber/sd-08-project-mistery-letter/pull/10)
 
-##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :closed_book:
+##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :hourglass_flowing_sand:
 
-- [ ] 6.1: HTML & CSS - Forms
-- [ ] 6.2: JavaScript Libraries and CSS Frameworks
-- [ ] 6.3: CSS Flexbox - Part 1
-- [ ] 6.4: CSS Flexbox - Part 2
+- [X] 6.1: HTML & CSS - Forms
+- [X] 6.2: JavaScript Libraries and CSS Frameworks
+- [X] 6.3: CSS Flexbox - Part 1
+- [X] 6.4: CSS Flexbox - Part 2
 - [ ] 6.5: CSS Responsive - Mobile First
 - [ ] 6.6: Project - Facebook's Login Page
 
