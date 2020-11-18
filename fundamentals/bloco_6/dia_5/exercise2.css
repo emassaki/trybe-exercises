@@ -16,11 +16,12 @@ body {
 header {
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid rgb(173, 173, 173);
 }
 
 header p {
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -30,6 +31,10 @@ header nav ul {
 
 li {
   list-style-type: none;
+}
+
+.aside-two {
+  font-size: 14px;
 }
 
 .main-content {
@@ -43,4 +48,20 @@ footer h3 {
 
 footer p {
   font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 85%;
+    margin: auto;
+  }
+
+  header p {
+    font-size: 30px;
+  }
+  
+  .aside-container {
+    display: flex;
+    justify-content: space-around;
+  }
 }
