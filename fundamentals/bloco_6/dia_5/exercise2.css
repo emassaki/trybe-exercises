@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 10px;
+  background-color: aliceblue;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main-content {
+  border-bottom: 2px solid rgb(173, 173, 173);
+  border-top: 2px solid rgb(173, 173, 173);
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 14px;
+}
