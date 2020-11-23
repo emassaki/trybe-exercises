@@ -1,0 +1,43 @@
+body {
+  font-size: 20px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: aqua;
+    font-size: 22px;
+    margin: 40px;
+  }
+  
+  figure {
+    width: 40%;
+    display: inline-block;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: beige;
+    font-size: 26px;
+    margin: 60px auto;
+    max-width: 70%;
+  }
+}

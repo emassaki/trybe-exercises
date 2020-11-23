@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 10px;
+  background-color: aliceblue;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(173, 173, 173);
+}
+
+header p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.aside-two {
+  font-size: 14px;
+}
+
+.main-content {
+  border-bottom: 2px solid rgb(173, 173, 173);
+  border-top: 2px solid rgb(173, 173, 173);
+}
+
+footer h3 {
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 85%;
+    margin: auto;
+  }
+
+  header p {
+    font-size: 30px;
+  }
+
+  .aside-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header p {
+    font-size: 40px;
+  }
+
+  .aside-one, .aside-two {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .aside-one ul, .aside-two ul {
+    margin-top: 16px
+  }
+
+  .aside-one h2, .aside-two h2 {
+    margin-top: 16px;
+  }
+
+  .main-content p {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+}
