@@ -1,0 +1,13 @@
+.tower-group-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tower-1-1 {
+  align-self: flex-end;
+}
+
+.tower-1-3 {
+  align-self: flex-end;
+}
