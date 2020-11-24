@@ -63,7 +63,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 5.7: [(Bonus) Project - Gess the Color](https://github.com/tryber/sd-08-project-color-guess/pull/9)
 - [X] 5.7: [(Bonus) Project - Mysterious Letter](https://github.com/tryber/sd-08-project-mistery-letter/pull/10)
 
-##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :hourglass_flowing_sand:
+##### Unit 6: HTML & CSS - Forms, Flexbox and Responsive :heavy_check_mark:
 
 - [X] 6.1: HTML & CSS - Forms
 - [X] 6.2: JavaScript Libraries and CSS Frameworks
@@ -72,9 +72,9 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 6.5: CSS Responsive - Mobile First
 - [X] 6.6: [Project - Facebook's Login Page](https://github.com/tryber/sd-08-project-facebook-signup/pull/25)
 
-##### Unit 7: JavaScript ES6 & Unit Tests :closed_book:
+##### Unit 7: JavaScript ES6 & Unit Tests :hourglass_flowing_sand:
 
-- [ ] 7.1: JavaScript ES6 - let, const, arrow functions and template literals
+- [X] 7.1: JavaScript ES6 - let, const, arrow functions and template literals
 - [ ] 7.2: JavaScript ES6 - Objects
 - [ ] 7.3: Unit tests in JavaScript
 - [ ] 7.4: Project - JavaScript Unit Tests
