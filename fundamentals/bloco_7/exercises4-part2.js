@@ -1,18 +1,18 @@
 const skills = ['Git', 'HTML', 'CSS', 'JavaScript', 'NodeJS'];
 
-function func1(string) {
-  let tryber = 'Tryber x aqui!';
-  let name = tryber.replace('x', string);
-  return name;
-}
+const tryber = (name) => `Tryber ${name} aqui!`;
 
-function func2() {
-  const orderedSkills = skills.sort();
-  let string = `${func1('Massaki')}\nMinhas 5 melhores habilidades são:\n`;
-  orderedSkills.forEach((skill, index) => {
-    string = `${string} \n ${index+1} - ${skill};`
+function trberSkills() {
+  const sortedSkills = skills.sort();
+  let result = `${tryber('Massaki')}
+
+  Minhas 5 melhores habilidades são:`;
+  sortedSkills.forEach((skill, index) => {
+    result = `${result}
+    ${index + 1} - ${skill};`;
   });
-  string = `${string}\n\n#goTrybe`;
-  return string;
+  result = `${result}
+  #goTrybe`;
+  return result;
 }
-console.log(func2())
+console.log(trberSkills());
