@@ -76,7 +76,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 7.1: JavaScript ES6 - let, const, arrow functions and template literals
 - [X] 7.2: JavaScript ES6 - Objects
-- [ ] 7.3: Unit tests in JavaScript
+- [X] 7.3: Unit tests in JavaScript
 - [ ] 7.4: Project - JavaScript Unit Tests
 
 ##### Unit 8: JavaScript ES6 :closed_book:
