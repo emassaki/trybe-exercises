@@ -72,14 +72,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 6.5: CSS Responsive - Mobile First
 - [X] 6.6: [Project - Facebook's Login Page](https://github.com/tryber/sd-08-project-facebook-signup/pull/25)
 
-##### Unit 7: JavaScript ES6 & Unit Tests :hourglass_flowing_sand:
+##### Unit 7: JavaScript ES6 & Unit Tests :heavy_check_mark:
 
 - [X] 7.1: JavaScript ES6 - let, const, arrow functions and template literals
 - [X] 7.2: JavaScript ES6 - Objects
 - [X] 7.3: Unit tests in JavaScript
-- [ ] 7.4: Project - JavaScript Unit Tests
+- [X] 7.4: [Project - JavaScript Unit Tests](https://github.com/tryber/sd-08-project-js-unit-tests/pull/64)
 
-##### Unit 8: JavaScript ES6 :closed_book:
+##### Unit 8: JavaScript ES6 :hourglass_flowing_sand:
 
 - [ ] 8.1: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [ ] 8.2: JavaScript ES6 - Higher Order Functions - map and filter
