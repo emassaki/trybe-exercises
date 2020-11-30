@@ -1,1 +1,0 @@
-books.sort((item1, item2) => item1.releaseYear - item2.releaseYear)
