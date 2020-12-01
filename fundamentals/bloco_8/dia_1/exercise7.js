@@ -66,10 +66,12 @@ const books = [
 const expected_result = false;
 
 function authorUnique() {
-  let condition;
+  let condition = true;
   books.forEach((book) => {
     for (let i = 0; i < books.length; i += 1) {
-      condition = book.author.birthYear === books[i].author.birthYear ? false : true;
+      if (book.author.birthYear === books[i].author.birthYear && book !== books[i]) {
+        condition = false;
+      }
     }
   });
   return condition;
