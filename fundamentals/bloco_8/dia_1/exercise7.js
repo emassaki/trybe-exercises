@@ -67,12 +67,15 @@ const expected_result = false;
 
 function authorUnique() {
   let condition = true;
-  books.forEach((book) => {
-    for (let i = 0; i < books.length; i += 1) {
-      if (book.author.birthYear === books[i].author.birthYear && book !== books[i]) {
+  books.forEach((book1) => {
+    books.forEach((book2) => {
+      if (
+        book1.author.birthYear === book2.author.birthYear &&
+        book1 !== book2
+      ) {
         condition = false;
       }
-    }
+    });
   });
   return condition;
 }
