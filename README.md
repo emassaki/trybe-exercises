@@ -87,6 +87,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 8.4: JavaScript ES6 - Spread operator, rest parameter, destructuring and more
 - [X] 8.5: [Project - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/75)
 
+
 ##### Unit 9: Asynchronicity & Callbacks :closed_book:
 
 - [ ] 9.1: Asynchronous JavaScript and Callbacks
