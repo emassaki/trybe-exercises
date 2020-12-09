@@ -90,7 +90,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Unit 9: Asynchronicity & Callbacks :closed_book:
 
-- [ ] 9.1: Asynchronous JavaScript and Callbacks
+- [X] 9.1: Asynchronous JavaScript and Callbacks
 - [ ] 9.2: JavaScript Promises
 - [ ] 9.3: Project - Shopping Cart
 
