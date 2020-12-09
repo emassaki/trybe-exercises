@@ -27,10 +27,10 @@ const fetchJoke = () => {
     }
     resolve(sumOfSqrdArray);
   })
-    // Exercise 3 - log an array with the division result of 2, 3, 5 and 10
-    .then((number) =>
-      console.log([2, 3, 5, 10].map((quotient) => Math.round((number / quotient) * 100) / 100))
-    )
+    // Exercise 3 - return an array with the division result of 2, 3, 5 and 10
+    .then((number) => [2, 3, 5, 10].map((quotient) => Math.round((number / quotient) * 100) / 100))
+    // Exercise 5 - sum all the array values
+    .then((array) => console.log(array.reduce((total, number) => (total += number))))
     // Exercise 4 - log a message when reject promise
     .catch(() => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
 };
