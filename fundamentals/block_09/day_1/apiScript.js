@@ -23,7 +23,7 @@ const fetchJoke = () => {
       .map((number) => number ** 2)
       .reduce((total, curr) => (total += curr));
     if (sumOfSqrdArray >= 8000) {
-      return reject(sumOfSqrdArray);
+      return reject();
     }
     resolve(sumOfSqrdArray);
   })
@@ -31,7 +31,8 @@ const fetchJoke = () => {
     .then((number) =>
       console.log([2, 3, 5, 10].map((quotient) => Math.round((number / quotient) * 100) / 100))
     )
-    .catch((number) => console.log(`A soma dos quadrados do array, ${number}, é maior que 8000`));
+    // Exercise 4 - log a message when reject promise
+    .catch(() => console.log('É mais de oito mil! Essa promise deve estar quebrada!'));
 };
 
 window.onload = () => fetchJoke();
