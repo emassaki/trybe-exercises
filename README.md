@@ -79,7 +79,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 7.3: Unit tests in JavaScript
 - [X] 7.4: [Project - JavaScript Unit Tests](https://github.com/tryber/sd-08-project-js-unit-tests/pull/64)
 
-##### Unit 8: JavaScript ES6 :hourglass_flowing_sand:
+##### Unit 8: JavaScript ES6 :heavy_check_mark:
 
 - [X] 8.1: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [X] 8.2: JavaScript ES6 - Higher Order Functions - map and filter
@@ -88,13 +88,13 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 8.5: [Project - Zoo functions](https://github.com/tryber/sd-08-project-zoo-function/pull/75)
 
 
-##### Unit 9: Asynchronicity & Callbacks :closed_book:
+##### Unit 9: Asynchronicity & Callbacks :heavy_check_mark:
 
 - [X] 9.1: Asynchronous JavaScript and Callbacks
-- [ ] 9.2: JavaScript Promises
-- [ ] 9.3: Project - Shopping Cart
+- [X] 9.2: JavaScript Promises
+- [X] 9.3: [Project - Shopping Cart](https://github.com/tryber/sd-08-project-shopping-cart/pull/3)
 
-##### Unit 10: Automated Tests with Jest :closed_book:
+##### Unit 10: Automated Tests with Jest :hourglass_flowing_sand:
 
 - [ ] 10.1: First steps on Jest
 - [ ] 10.2: Jest - Asynchronous tests
