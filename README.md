@@ -99,7 +99,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 10.1: First steps on Jest
 - [X] 10.2: Jest - Asynchronous tests
 - [X] 10.3: Jest - Simulating behaviors
-- [ ] 10.4: Project - Asynchronous Jest and Mocking
+- [X] 10.4: [Project - Asynchronous Jest and Mocking](https://github.com/tryber/sd-08-project-jest/pull/51)
 
 ## Front-end Development :closed_book:
 
