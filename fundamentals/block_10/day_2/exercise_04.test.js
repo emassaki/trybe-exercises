@@ -10,7 +10,7 @@ const getRepos = (url) => {
 };
 
 test('Has the directory', () => {
-  return getRepos('https://api.github.com/users/tryber/repos').then((result) => {
+  return getRepos('https://api.github.com/orgs/tryber/repos').then((result) => {
     expect(result).toContain('sd-01-week4-5-project-todo-list');
     expect(result).toContain('sd-01-week4-5-project-meme-generator');
   });
