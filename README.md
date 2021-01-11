@@ -23,7 +23,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - :closed_book: - Not started
 
 # Trybe Lectures
-## Introduction - Fundamentals of Web Development :hourglass_flowing_sand:
+## Introduction - Fundamentals of Web Development :heavy_check_mark:
 ##### Unit 1: Introduction - Unix & Shell :heavy_check_mark:
 
 - [X] 1.3: Unix & Bash - Part 1
@@ -94,14 +94,14 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 9.2: JavaScript Promises
 - [X] 9.3: [Project - Shopping Cart](https://github.com/tryber/sd-08-project-shopping-cart/pull/3)
 
-##### Unit 10: Automated Tests with Jest :hourglass_flowing_sand:
+##### Unit 10: Automated Tests with Jest :heavy_check_mark:
 
-- [ ] 10.1: First steps on Jest
-- [ ] 10.2: Jest - Asynchronous tests
-- [ ] 10.3: Jest - Simulating behaviors
-- [ ] 10.4: Project - Asynchronous Jest and Mocking
+- [X] 10.1: First steps on Jest
+- [X] 10.2: Jest - Asynchronous tests
+- [X] 10.3: Jest - Simulating behaviors
+- [X] 10.4: [Project - Asynchronous Jest and Mocking](https://github.com/tryber/sd-08-project-jest/pull/51)
 
-## Front-end Development :closed_book:
+## Front-end Development :hourglass_flowing_sand:
 
 ##### Unit 11: Introduction to React :closed_book:
 
