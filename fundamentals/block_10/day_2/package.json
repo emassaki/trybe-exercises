@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "name": "day_2",
+  "version": "1.0.0",
+  "main": "exercise_01.test.js",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
