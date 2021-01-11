@@ -103,7 +103,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ## Front-end Development :hourglass_flowing_sand:
 
-##### Unit 11: Introduction to React :closed_book:
+##### Unit 11: Introduction to React :hourglass_flowing_sand:
 
 - [ ] 11.1: 'Hello, world!' on React!
 - [ ] 11.2: React Components
