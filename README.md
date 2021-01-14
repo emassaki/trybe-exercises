@@ -106,8 +106,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Unit 11: Introduction to React :hourglass_flowing_sand:
 
 - [X] 11.1: 'Hello, world!' on React!
-- [ ] 11.2: React Components
-- [ ] 11.3: Project - Movie Cards Library
+- [X] 11.2: React Components
+- [X] 11.3: [Project - Movie Cards Library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/20)
 
 ##### Unit 12: Componets with State, Events and Forms with React :closed_book:
 
