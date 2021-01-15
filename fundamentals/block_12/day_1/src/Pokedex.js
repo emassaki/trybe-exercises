@@ -11,7 +11,6 @@ class Pokedex extends React.Component {
       pokemonIndex: 0,
       pokemonType: 'All'
     }
-
   }
 
   nextPokemon(numberOfPokemons) {
@@ -39,8 +38,7 @@ class Pokedex extends React.Component {
 
   getAllPokemonsTypes() {
     const { pokemons } = this.props;
-
-    return [...new Set(pokemons.reduce((types, { type }) => [...types, type], []))]
+    return [...new Set(pokemons.reduce((types, { type }) => [...types, type], []))];
   }
 
   render() {
