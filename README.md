@@ -103,15 +103,15 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ## Front-end Development :hourglass_flowing_sand:
 
-##### Unit 11: Introduction to React :hourglass_flowing_sand:
+##### Unit 11: Introduction to React :heavy_check_mark:
 
 - [X] 11.1: 'Hello, world!' on React!
 - [X] 11.2: React Components
 - [X] 11.3: [Project - Movie Cards Library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/20)
 
-##### Unit 12: Componets with State, Events and Forms with React :closed_book:
+##### Unit 12: Componets with State, Events and Forms with React :hourglass_flowing_sand:
 
-- [ ] 12.1: Components with states and events
+- [X] 12.1: Components with states and events
 - [ ] 12.2: Forms on React
 - [ ] 12.3: Project - Movie Cards Library Stateful
 
