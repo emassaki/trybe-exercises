@@ -109,7 +109,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 11.2: React Components
 - [X] 11.3: [Project - Movie Cards Library](https://github.com/tryber/sd-08-project-movie-cards-library/pull/20)
 
-##### Unit 12: Componets with State, Events and Forms with React 
+##### Unit 12: Componets with State, Events and Forms with React :heavy_check_mark:
 
 - [X] 12.1: Components with states and events
 - [X] 12.2: Forms on React
@@ -117,8 +117,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Unit 13: Components Life Cycle and React Router :hourglass_flowing_sand:
 
-- [ ] 13.1: Components Life Cycle on React
-- [ ] 13.2: React Router
+- [X] 13.1: Components Life Cycle on React
+- [X] 13.2: React Router
 - [ ] 13.3: Project - Movie Cards Library CRUD
 
 ##### Unit 14: Agile Methodologies :closed_book:
