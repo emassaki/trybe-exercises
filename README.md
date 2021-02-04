@@ -115,18 +115,18 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 12.2: Forms on React
 - [X] 12.3: [Project - Movie Cards Library Stateful](https://github.com/tryber/sd-08-project-movie-cards-library-stateful/pull/27)
 
-##### Unit 13: Components Life Cycle and React Router :hourglass_flowing_sand:
+##### Unit 13: Components Life Cycle and React Router :heavy_check_mark:
 
 - [X] 13.1: Components Life Cycle on React
 - [X] 13.2: React Router
-- [ ] 13.3: Project - Movie Cards Library CRUD
+- [X] 13.3: [Project - Movie Cards Library CRUD](https://github.com/tryber/sd-08-project-movie-cards-library-crud/pull/54)
 
-##### Unit 14: Agile Methodologies :closed_book:
+##### Unit 14: Agile Methodologies :heavy_check_mark:
 
-- [ ] 14.1: Agile Methodologies
-- [ ] 14.2: Project - Frontend Online Store
+- [X] 14.1: Agile Methodologies
+- [X] 14.2: [Project - Frontend Online Store](https://github.com/tryber/sd-08-project-frontend-online-store/pull/115)
 
-##### Unit 15: Automated Tests with React Testing Library :closed_book:
+##### Unit 15: Automated Tests with React Testing Library :hourglass_flowing_sand:
 
 - [ ] 15.1: RTL - First steps
 - [ ] 15.2: RTL - Mocks and Inputs
