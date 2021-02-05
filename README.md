@@ -128,7 +128,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 ##### Unit 15: Automated Tests with React Testing Library :hourglass_flowing_sand:
 
-- [ ] 15.1: RTL - First steps
+- [X] 15.1: RTL - First steps
 - [ ] 15.2: RTL - Mocks and Inputs
 - [ ] 15.3: RTL - Testing React Router
 - [ ] 15.4: Project - Tests on React
