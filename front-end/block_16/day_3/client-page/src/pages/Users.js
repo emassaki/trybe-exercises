@@ -49,7 +49,7 @@ class Users extends React.Component {
     const { email, password, users } = this.props;
     const usersList = sorted ? [...users].sort(this.compare) : users;
     return (
-      <section>
+      <section className='users'>
         <h2>Usuários Cadastrados</h2>
         <button type="button" onClick={() => this.setState({ sorted: true })}>
           Ordenar A-Z

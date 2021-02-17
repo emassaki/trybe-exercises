@@ -1,17 +1,22 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import { Home, Login, Register, Users } from './pages';
 
+import { AiFillHome } from 'react-icons/ai';
 import './App.css';
-import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <h1>Client</h1>
-        <Link to='/'>Home</Link>
+        <header className='header'>
+          <h1>Client</h1>
+          <Link to="/" className="link">
+            <AiFillHome />
+          </Link>
+        </header>
         <Switch>
           <Route path="/login" component={Login} />
           <Route path="/users" component={Users} />

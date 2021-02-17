@@ -3,13 +3,15 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { emailChange, passwordChange } from '../redux/actions';
 
+import { MdEmail, MdVpnKey } from "react-icons/md";
+
 function Login({ email, emailChange, password, passwordChange }) {
   return (
-    <section>
+    <section className='login'>
       <h2>Login</h2>
       <form>
         <label>
-          E-mail:
+          <MdEmail />
           <input
             type="text"
             value={email}
@@ -17,7 +19,7 @@ function Login({ email, emailChange, password, passwordChange }) {
           />
         </label>
         <label>
-          Senha:
+          <MdVpnKey />
           <input
             type="password"
             value={password}

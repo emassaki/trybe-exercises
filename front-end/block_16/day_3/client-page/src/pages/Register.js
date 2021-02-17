@@ -37,7 +37,7 @@ class Register extends React.Component {
   render() {
     const { name, email, age } = this.state;
     return (
-      <section>
+      <section className="register">
         <h2>Cadastre o Cliente</h2>
         <form>
           <label>
@@ -53,12 +53,14 @@ class Register extends React.Component {
             <input type="text" name="age" value={age} onChange={this.handleChange} />
           </label>
         </form>
-        <button type="button" onClick={() => this.handleClick()}>
-          Registrar
-        </button>
-        <button type="button">
-          <Link to='/users'>Usuários</Link>
-        </button>
+        <div className="btn-container">
+          <button type="button" onClick={() => this.handleClick()}>
+            Registrar
+          </button>
+          <button type="button">
+            <Link to="/users">Usuários</Link>
+          </button>
+        </div>
       </section>
     );
   }
