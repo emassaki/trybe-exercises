@@ -137,8 +137,8 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 16.1: Introduction to Redux
 - [X] 16.2: React with Redux - Part 1
-- [ ] 16.3: React with Redux - Pratice
-- [ ] 16.4: React with Redux - Part 2
+- [X] 16.3: React with Redux - Pratice
+- [X] 16.4: React with Redux - Part 2
 - [ ] 16.5: Synchronous tests with React-Redux
 - [ ] 16.6: Project - Table with data filters
 
