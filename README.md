@@ -133,22 +133,22 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 15.3: RTL - Testing React Router
 - [X] 15.4: [Project - Tests on React](https://github.com/tryber/sd-08-project-react-testing-library/pull/46)
 
-##### Unit 16: State Management with Redux :hourglass_flowing_sand:
+##### Unit 16: State Management with Redux :heavy_check_mark:
 
 - [X] 16.1: Introduction to Redux
 - [X] 16.2: React with Redux - Part 1
 - [X] 16.3: React with Redux - Pratice
 - [X] 16.4: React with Redux - Part 2
-- [ ] 16.5: Synchronous tests with React-Redux
-- [ ] 16.6: Project - Table with data filters
+- [X] 16.5: Synchronous tests with React-Redux
+- [X] 16.6: [Project - Table with data filters](https://github.com/tryber/sd-08-project-trybewallet/pull/45)
 
-##### Unit 17: Project Trivia Game :closed_book:
+##### Unit 17: Project Trivia Game :heavy_check_mark:
 
-- [ ] 17.1: Project Trivia Game
+- [X] 17.1: [Project Trivia Game](https://github.com/tryber/sd-08-project-trivia-react-redux/pull/13)
 
-##### Unit 18: React Hooks & Context API :closed_book:
+##### Unit 18: React Hooks & Context API :hourglass_flowing_sand:
 
-- [ ] 18.1: React's Context API
+- [X] 18.1: React's Context API
 - [ ] 18.2: React Hooks - useState and useContext
 - [ ] 18.3: React Hooks - useEffect and customized Hooks
 - [ ] 18.4: Project - StarWars Datatable with Context API and Hooks
