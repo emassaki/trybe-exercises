@@ -149,7 +149,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Unit 18: React Hooks & Context API :hourglass_flowing_sand:
 
 - [X] 18.1: React's Context API
-- [ ] 18.2: React Hooks - useState and useContext
+- [X] 18.2: React Hooks - useState and useContext
 - [ ] 18.3: React Hooks - useEffect and customized Hooks
 - [ ] 18.4: Project - StarWars Datatable with Context API and Hooks
 
