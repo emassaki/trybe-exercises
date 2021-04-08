@@ -150,12 +150,12 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 18.1: React's Context API
 - [X] 18.2: React Hooks - useState and useContext
-- [ ] 18.3: React Hooks - useEffect and customized Hooks
-- [ ] 18.4: Project - StarWars Datatable with Context API and Hooks
+- [X] 18.3: React Hooks - useEffect and customized Hooks
+- [X] 18.4: [Project - StarWars Datatable with Context API and Hooks](https://github.com/tryber/sd-08-project-starwars-planets-search/pull/34)
 
 ##### Unit 19: Final Project - Recipes App :closed_book:
 
-- [ ] 19.1: Project - Recipes App
+- [X] 19.1: [Project - Recipes App](https://github.com/tryber/sd-08-project-recipes-app/pull/43)
 
  ## Back-end Development :closed_book:
 
