@@ -101,7 +101,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 10.3: Jest - Simulating behaviors
 - [X] 10.4: [Project - Asynchronous Jest and Mocking](https://github.com/tryber/sd-08-project-jest/pull/51)
 
-## Front-end Development :hourglass_flowing_sand:
+## Front-end Development :heavy_check_mark:
 
 ##### Unit 11: Introduction to React :heavy_check_mark:
 
@@ -146,25 +146,25 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 17.1: [Project Trivia Game](https://github.com/tryber/sd-08-project-trivia-react-redux/pull/13)
 
-##### Unit 18: React Hooks & Context API :hourglass_flowing_sand:
+##### Unit 18: React Hooks & Context API :heavy_check_mark:
 
 - [X] 18.1: React's Context API
 - [X] 18.2: React Hooks - useState and useContext
 - [X] 18.3: React Hooks - useEffect and customized Hooks
 - [X] 18.4: [Project - StarWars Datatable with Context API and Hooks](https://github.com/tryber/sd-08-project-starwars-planets-search/pull/34)
 
-##### Unit 19: Final Project - Recipes App :closed_book:
+##### Unit 19: Final Project - Recipes App :heavy_check_mark:
 
 - [X] 19.1: [Project - Recipes App](https://github.com/tryber/sd-08-project-recipes-app/pull/43)
 
- ## Back-end Development :closed_book:
+ ## Back-end Development :hourglass_flowing_sand:
 
-##### Unit 20: Introduction to SQL :closed_book:
+##### Unit 20: Introduction to SQL :hourglass_flowing_sand:
 
-- [ ] 20.1: Database SQL
-- [ ] 20.2: Finding data in a database
-- [ ] 20.3: Filtering data specifically
-- [ ] 20.4: Handliing tables
+- [X] 20.1: Database SQL
+- [X] 20.2: Finding data in a database
+- [X] 20.3: Filtering data specifically
+- [X] 20.4: Handling tables
 - [ ] 20.5: Project - All For One
 
 ##### Unit 21: SQL Functions, Joins and Subqueries :closed_book:
