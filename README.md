@@ -159,17 +159,17 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
  ## Back-end Development :hourglass_flowing_sand:
 
-##### Unit 20: Introduction to SQL :hourglass_flowing_sand:
+##### Unit 20: Introduction to SQL :heavy_check_mark:
 
 - [X] 20.1: Database SQL
 - [X] 20.2: Finding data in a database
 - [X] 20.3: Filtering data specifically
 - [X] 20.4: Handling tables
-- [ ] 20.5: Project - All For One
+- [X] 20.5: [Project - All For One](https://github.com/tryber/sd-08-mysql-all-for-one/pull/19)
 
-##### Unit 21: SQL Functions, Joins and Subqueries :closed_book:
+##### Unit 21: SQL Functions, Joins and Subqueries :hourglass_flowing_sand:
 
-- [ ] 21.1: Most used SQL Functions
+- [X] 21.1: Most used SQL Functions
 - [ ] 21.2: Simplifying JOINs and UNIONs
 - [ ] 21.3: Stored Routines & Subqueries
 - [ ] 21.4: Project - Vocabulary Booster
