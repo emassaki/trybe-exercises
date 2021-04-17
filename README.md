@@ -170,7 +170,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 ##### Unit 21: SQL Functions, Joins and Subqueries :hourglass_flowing_sand:
 
 - [X] 21.1: Most used SQL Functions
-- [ ] 21.2: Simplifying JOINs and UNIONs
+- [X] 21.2: Simplifying JOINs and UNIONs
 - [ ] 21.3: Stored Routines & Subqueries
 - [ ] 21.4: Project - Vocabulary Booster
 
