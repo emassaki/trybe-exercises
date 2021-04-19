@@ -171,7 +171,7 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 
 - [X] 21.1: Most used SQL Functions
 - [X] 21.2: Simplifying JOINs and UNIONs
-- [ ] 21.3: Stored Routines & Subqueries
+- [X] 21.3: Stored Routines & Subqueries
 - [ ] 21.4: Project - Vocabulary Booster
 
 ##### Unit 22: Database Normalization and Modeling :closed_book:
