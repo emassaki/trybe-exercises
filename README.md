@@ -167,23 +167,23 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 20.4: Handling tables
 - [X] 20.5: [Project - All For One](https://github.com/tryber/sd-08-mysql-all-for-one/pull/19)
 
-##### Unit 21: SQL Functions, Joins and Subqueries :hourglass_flowing_sand:
+##### Unit 21: SQL Functions, Joins and Subqueries :heavy_check_mark:
 
 - [X] 21.1: Most used SQL Functions
 - [X] 21.2: Simplifying JOINs and UNIONs
 - [X] 21.3: Stored Routines & Subqueries
-- [ ] 21.4: Project - Vocabulary Booster
+- [X] 21.4: [Project - Vocabulary Booster](https://github.com/tryber/sd-08-mysql-vocabulary-booster/pull/21)
 
-##### Unit 22: Database Normalization and Modeling :closed_book:
+##### Unit 22: Database Normalization and Modeling :heavy_check_mark:
 
-- [ ] 22.1: Transforming ideas into a database model
-- [ ] 22.2: Normalization, Normal Forms and Dumps
-- [ ] 22.2: Transforming ideas into a database model - Part 2
-- [ ] 22.3: Project - One For All
+- [X] 22.1: Transforming ideas into a database model
+- [X] 22.2: Normalization, Normal Forms and Dumps
+- [X] 22.2: Transforming ideas into a database model - Part 2
+- [X] 22.3: [Project - One For All](https://github.com/tryber/sd-08-mysql-one-for-all/pull/40)
 
-##### Unit 23: Introdution to MongoDB :closed_book:
+##### Unit 23: Introdution to MongoDB :hourglass_flowing_sand:
 
-- [ ] 23.1: MongoDB - Introduction
+- [X] 23.1: MongoDB - Introduction
 - [ ] 23.2: Filter Operators
 - [ ] 23.3: Project - Data Flights
 
