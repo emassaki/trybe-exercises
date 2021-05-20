@@ -20,10 +20,10 @@ app.delete("/recipe/:id", (req, res) => {
   const id = parseInt(req.params.id, 10);
   if (recipes.find((recipe) => recipe.id === id)) {
     const deleteIndex = recipes.findIndex((recipe) => recipe.id === id);
-    const deletedArray = recipes.splice(deleteIndex, 1);
-
+    const deletedArray = recipes.splice(deleteIndex, 1)[0];
+    
     fs.writeFileSync("./recipes.json", JSON.stringify(recipes));
-    res.status(200).send({ deletedArray, recipes });
+    res.status(200).send(deletedArray);
   } else {
     res.status(404).send({ message: "recipe not found" });
   }
@@ -35,14 +35,14 @@ app.post("/recipe/new", (_req, res) => {
     id: 12346,
     name: "ovo mexido",
     ingredientes: ["ovo"],
-  }
+  };
 
-  if (recipes.find(recipe => recipe.id === newRecipe.id)) {
-    return res.status(500).send({message: "recipe already added"});
+  if (recipes.find((recipe) => recipe.id === newRecipe.id)) {
+    return res.status(500).send({ message: "recipe already added" });
   }
   recipes.push(newRecipe);
   fs.writeFileSync("./recipes.json", JSON.stringify(recipes));
-  res.status(200).send({addedRecipe: newRecipe})
+  res.status(200).send({ addedRecipe: newRecipe });
 });
 
 app.listen(3000, () => {
