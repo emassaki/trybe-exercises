@@ -15,34 +15,52 @@ const app = express();
 //   }
 // ];
 
+const getRecipes = () => JSON.parse(fs.readFileSync("./recipes.json", "utf8"));
+const updateRecipes = (recipes) =>
+  fs.writeFileSync("./recipes.json", JSON.stringify(recipes));
+
 app.delete("/recipe/:id", (req, res) => {
-  const recipes = JSON.parse(fs.readFileSync("./recipes.json", "utf8"));
-  const id = parseInt(req.params.id, 10);
-  if (recipes.find((recipe) => recipe.id === id)) {
-    const deleteIndex = recipes.findIndex((recipe) => recipe.id === id);
-    const deletedArray = recipes.splice(deleteIndex, 1)[0];
-    
-    fs.writeFileSync("./recipes.json", JSON.stringify(recipes));
-    res.status(200).send(deletedArray);
-  } else {
-    res.status(404).send({ message: "recipe not found" });
+  try {
+    const recipes = getRecipes();
+
+    const id = parseInt(req.params.id, 10);
+    if (recipes.find((recipe) => recipe.id === id)) {
+      const deleteIndex = recipes.findIndex((recipe) => recipe.id === id);
+      const deletedArray = recipes.splice(deleteIndex, 1)[0];
+
+      updateRecipes(recipes);
+
+      res.status(200).send(deletedArray);
+    } else {
+      res.status(404).send({ message: "recipe not found" });
+    }
+  } catch (err) {
+    res.status(500).send({ message: err });
   }
 });
 
 app.post("/recipe/new", (_req, res) => {
-  const recipes = JSON.parse(fs.readFileSync("./recipes.json", "utf8"));
-  const newRecipe = {
-    id: 12346,
-    name: "ovo mexido",
-    ingredientes: ["ovo"],
-  };
+  try {
+    const recipes = getRecipes();
 
-  if (recipes.find((recipe) => recipe.id === newRecipe.id)) {
-    return res.status(500).send({ message: "recipe already added" });
+    const newRecipe = {
+      id: 12346,
+      name: "ovo mexido",
+      ingredientes: ["ovo"],
+    };
+
+    if (recipes.find((recipe) => recipe.id === newRecipe.id)) {
+      return res.status(500).send({ message: "recipe already added" });
+    }
+
+    recipes.push(newRecipe);
+
+    updateRecipes(recipes);
+
+    res.status(200).send({ addedRecipe: newRecipe });
+  } catch (err) {
+    res.status(500).send({ message: err });
   }
-  recipes.push(newRecipe);
-  fs.writeFileSync("./recipes.json", JSON.stringify(recipes));
-  res.status(200).send({ addedRecipe: newRecipe });
 });
 
 app.listen(3000, () => {
