@@ -1,0 +1,27 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "This repository have all the exercises developed by [Eric Massaki Hirayama](https://www.linkedin.com/in/erichirayama/)  during Trybe's course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emassaki/trybe-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emassaki/trybe-exercises/issues"
+  },
+  "homepage": "https://github.com/emassaki/trybe-exercises#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
