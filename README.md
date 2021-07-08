@@ -181,117 +181,113 @@ The lecture number is displayed in the section Trybe Lectures as `lecture_number
 - [X] 22.2: Transforming ideas into a database model - Part 2
 - [X] 22.3: [Project - One For All](https://github.com/tryber/sd-08-mysql-one-for-all/pull/40)
 
-##### Unit 23: Introdution to MongoDB :hourglass_flowing_sand:
+##### Unit 23: Introdution to MongoDB :heavy_check_mark:
 
 - [X] 23.1: MongoDB - Introduction
-- [ ] 23.2: Filter Operators
-- [ ] 23.3: Project - Data Flights
+- [X] 23.2: Filter Operators
+- [X] 23.3: Project - Data Flights
 
-##### Unit 24: MongoDB: Simple and Complex Updates :closed_book:
+##### Unit 24: MongoDB: Simple and Complex Updates :heavy_check_mark:
 
-- [ ] 24.1: Simple Updates 
-- [ ] 24.2: Complex Updates - Arrays - Part 1
-- [ ] 24.3: Complex Updates - Arrays - Part 2
-- [ ] 24.4: Project - Commerce
+- [X] 24.1: Simple Updates 
+- [X] 24.2: Complex Updates - Arrays - Part 1
+- [X] 24.3: Complex Updates - Arrays - Part 2
+- [X] 24.4: Project - Commerce
 
-##### Unit 25: Aggregation Framework :closed_book:
+##### Unit 25: Aggregation Framework :heavy_check_mark:
 
-- [ ] 25.1: Aggregation Framework - Part 1
-- [ ] 25.2: Aggregation Framework - Part 2
-- [ ] 25.3: Project - Aggregations
+- [X] 25.1: Aggregation Framework - Part 1
+- [X] 25.2: Aggregation Framework - Part 2
+- [X] 25.3: Project - Aggregations
 
-##### Unit 26: Introduction to Web Development with NodeJS :closed_book:
+##### Unit 26: Introduction to Web Development with NodeJS :heavy_check_mark:
 
-- [ ] 26.1: NodeJS - Introdution
-- [ ] 26.2: NodeJS - Asynchronous Flux
-- [ ] 26.3: NodeJS - Architecture
-- [ ] 26.4: Express: HTTP with Node.js
-- [ ] 26.5: Practicing Express
-- [ ] 26.6: Software Architecture - Introduction to MVC
-- [ ] 26.7: Project - Cookmaster
+- [X] 26.1: NodeJS - Introdution
+- [X] 26.2: NodeJS - Asynchronous Flux
+- [X] 26.3: NodeJS - Architecture
+- [X] 26.4: Express: HTTP with Node.js
+- [X] 26.5: Practicing Express
+- [X] 26.6: Software Architecture - Introduction to MVC
+- [X] 26.7: Project - Cookmaster
 
-##### Unit 27: NodeJS: Service Layer and Rest and Restful Architecture :closed_book:
+##### Unit 27: NodeJS: Service Layer and Rest and Restful Architecture :heavy_check_mark:
 
-- [ ] 27.1: Software Architecture - Sevice Layer
-- [ ] 27.2: Web Architecture - Rest and Restful
-- [ ] 27.3: Project - Store Manager
+- [X] 27.1: Software Architecture - Sevice Layer
+- [X] 27.2: Web Architecture - Rest and Restful
+- [X] 27.3: Project - Store Manager
 
-##### Unit 28: Files Authentication and Upload :closed_book:
+##### Unit 28: Files Authentication and Upload :heavy_check_mark:
 
-- [ ] 28.1: NodeJS - JWT (JSON Web Token)
-- [ ] 28.2: NodeJS - File Upload with Multer
-- [ ] 28.3: Project - Coormaster V2
+- [X] 28.1: NodeJS - JWT (JSON Web Token)
+- [X] 28.2: NodeJS - File Upload with Multer
+- [X] 28.3: Project - Coormaster V2
 
-##### Unit 29: Deployment :closed_book:
+##### Unit 29: Deployment :heavy_check_mark:
 
-- [ ] 29.1: Infrastructure - Deploy with Heroku
-- [ ] 29.2: Deploy - Process Managers
-- [ ] 29.3: Project - Stranger Things
+- [X] 29.1: Infrastructure - Deploy with Heroku
+- [X] 29.2: Deploy - Process Managers
+- [X] 29.3: Project - Stranger Things
 
-##### Unit 30: Project Trybeer :closed_book:
+##### Unit 30: Archteture - SODID & ORM :hourglass_flowing_sand:
 
-- [ ] 30.1: Project - Trybeer
+- [X] 30.1: Architecture - Priciples SOLID
+- [X] 30.2: ORM - Application interface with database
+- [X] 30.3: ORM - Associations
+- [ ] 30.4: Good practice in writing tests
+- [ ] 30.5: Project - Blogs' API
 
-##### Unit 31: Archteture - SODID & ORM :closed_book:
+##### Unit 31: Sockets :closed_book:
 
-- [ ] 31.1: Architecture - Priciples SOLID
-- [ ] 31.2: ORM - Application interface with database
-- [ ] 31.3: ORM - Associations
-- [ ] 31.4: Good practice in writing tests
-- [ ] 31.5: Project - Blogs' API
-
-##### Unit 32: Sockets :closed_book:
-
-- [ ] 32.1: Sockets - TCP/UDP & NET
-- [ ] 32.2: Sockets - Socket.io
-- [ ] 32.3: Project - Webchat
+- [ ] 31.1: Sockets - TCP/UDP & NET
+- [ ] 31.2: Sockets - Socket.io
+- [ ] 31.3: Project - Webchat
 
 ##### Unit 33: Project Trybeer :closed_book:
 
-- [ ] 33.1: Project - Trybeer V2
+- [ ] 32.1: Project - Trybeer V2
 
 ## Computer Science :closed_book:
 
 ##### Unit 34: Introduction to Computer Science :closed_book:
 
-- [ ] 34.1: Computer Architecture
-- [ ] 34.2: Network Architecture
-- [ ] 34.3: Computer network, tools and security
-- [ ] 34.4: Project - Exploring protocols
+- [ ] 33.1: Computer Architecture
+- [ ] 33.2: Network Architecture
+- [ ] 33.3: Computer network, tools and security
+- [ ] 33.4: Project - Exploring protocols
 
 ##### Unit 35: Introduction to Pyton and Web Data Scraping :closed_book:
 
-- [ ] 35.1: Learning Python
-- [ ] 35.2: Tests and Exeptions
-- [ ] 35.3: Data Input and Output 
-- [ ] 35.4: Data Scraping
-- [ ] 35.5: Project - Tech News
+- [ ] 34.1: Learning Python
+- [ ] 34.2: Tests and Exeptions
+- [ ] 34.3: Data Input and Output 
+- [ ] 34.4: Data Scraping
+- [ ] 34.5: Project - Tech News
 
 ##### Unit 36: Object Oriented Programming and Project Patterns :closed_book:
 
-- [ ] 36.1: Introduction to Object Oriented Programming
-- [ ] 36.2: Hands-on OOP
-- [ ] 36.3: Project Patterns
-- [ ] 36.4: Project - Stock Report
+- [ ] 35.1: Introduction to Object Oriented Programming
+- [ ] 35.2: Hands-on OOP
+- [ ] 35.3: Project Patterns
+- [ ] 35.4: Project - Stock Report
 
 ##### Unit 37: Algorithms and Data Structure :closed_book:
 
-- [ ] 37.1: Data Structure I - Arrays
-- [ ] 37.2: Data Structure I - Algorithms Complexity
-- [ ] 37.3: Recursion and Problem-solving Strategies
-- [ ] 37.4: Sorting and searching algorithms
-- [ ] 37.5: Project - Algorithms
+- [ ] 36.1: Data Structure I - Arrays
+- [ ] 36.2: Data Structure I - Algorithms Complexity
+- [ ] 36.3: Recursion and Problem-solving Strategies
+- [ ] 36.4: Sorting and searching algorithms
+- [ ] 36.5: Project - Algorithms
 
 ##### Unit 38: Hash and Set :closed_book:
 
-- [ ] 38.1: Data Structure II - Hash maps & Dict
-- [ ] 38.2: Data Structure II - Set
-- [ ] 38.3: Project - Restaurant Orders
+- [ ] 37.1: Data Structure II - Hash maps & Dict
+- [ ] 37.2: Data Structure II - Set
+- [ ] 37.3: Project - Restaurant Orders
 
 ##### Unit 39: Data Structure: Stacks, Queues and Lists :closed_book:
 
-- [ ] 39.1: Data Structure III - Stacks
-- [ ] 39.2: Data Structure III - Deck
-- [ ] 39.3: Data Structure III - Nodes & Linked Lists
-- [ ] 39.4: Data Structure III - Doubly linked lists
-- [ ] 39.5: Projct - TING - Trybe Is Not Google
+- [ ] 38.1: Data Structure III - Stacks
+- [ ] 38.2: Data Structure III - Deck
+- [ ] 38.3: Data Structure III - Nodes & Linked Lists
+- [ ] 38.4: Data Structure III - Doubly linked lists
+- [ ] 38.5: Projct - TING - Trybe Is Not Google
